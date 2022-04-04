@@ -2,6 +2,8 @@
   padding-bottom: 0;
 }
 .features-list {
+  @extend .list;
+
   display: flex;
 
   &__item {

@@ -1,4 +1,6 @@
 .logo {
+  @extend .link;
+
   display: block;
   padding: 24px 0 25px 0;
 
@@ -10,6 +12,8 @@
   }
 
   &__light {
+    @extend .link;
+
     display: block;
     margin-bottom: 30px;
 
